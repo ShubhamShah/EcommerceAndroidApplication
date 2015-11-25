@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SabjiMandi</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_shop">Shop</string>
+    <string name="title_register">Register</string>
+    <string name="title_login">Login</string>
+    <string name="title_contactus">Contact Us</string>
+    <string name="title_developer">Developer</string>
+    <string name="title_feedback">Feedback</string>
+    <string name="action_search"></string>
+    <string name="action_settings"></string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+
+
+</resources>

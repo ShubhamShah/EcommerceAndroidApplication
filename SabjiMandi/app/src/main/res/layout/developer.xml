@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:fillViewport="true"
+    android:background="@drawable/background">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/SummaryTitle"
+            android:text="Developers"
+            android:gravity="center"
+            android:textSize="40dp"/>
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/ParagraphText"
+
+            android:textSize="20dp"
+            android:text="The SabjiMandi would like to acknowledge the team of Developers having developed to make it a lot easier, sophisticated and pleasing with their sincere efforts and wishes for the best."/>
+        <View style="@style/HorizontalDivider"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/ParagraphText"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"
+                android:text="Developers:"
+                android:gravity="left"/>
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:paddingRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/ParagraphText"
+                android:textSize="20dp"
+                android:text="Pratik Kothari\nInformation Technology Engineering\nPhone: 9970977103"
+
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/fb_pratik"
+                android:layout_toEndOf="@+id/fb_pratik" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/pratik"
+                android:id="@+id/fb_pratik"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:paddingRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/ParagraphText"
+                android:textSize="20dp"
+                android:text="Abubakr\nInformation Technology Engineering\nPhone: 8485834559"
+
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/fb_abu"
+                android:layout_toEndOf="@+id/fb_abu"
+                tools:ignore="DuplicateIds" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/abu"
+                android:id="@+id/fb_abu"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:paddingRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/ParagraphText"
+                android:textSize="20dp"
+                android:text="Shubham Shah\nInformation Technology\nPhone: 8275458028"
+                android:id="@+id/textView1"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/fb_shubham"
+                android:layout_toEndOf="@+id/fb_shubham" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/shubham"
+                android:id="@+id/fb_shubham"
+
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:paddingRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/ParagraphText"
+                android:textSize="20dp"
+                android:text="Ashish Mohanty\nInformation Technology Engineering\nPhone: 9552230057"
+
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/fb_ashish"
+                android:layout_toEndOf="@+id/fb_ashish" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ashish"
+                android:id="@+id/fb_ashish"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:paddingRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/ParagraphText"
+                android:textSize="20dp"
+                android:text="Zubair Shaikh\nInformation Technology Engineering\nPhone: 7208863708"
+                android:id="@+id/textView"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/fb_zubair"
+                android:layout_toEndOf="@+id/fb_zubair" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/zubair"
+                android:id="@+id/fb_zubair"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View style="@style/HorizontalDivider"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                style="@style/ParagraphText"
+                android:textSize="20dp"
+                android:text="Special Thanks To:"
+                android:gravity="left"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:paddingRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/ParagraphText"
+                android:textSize="20dp"
+                android:text="Prof. Trupti Indi\nInformation Technology\nPhone:9604732696"
+                android:id="@+id/textView2"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/fb_trupti"
+                android:layout_toEndOf="@+id/fb_trupti" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/indi"
+                android:id="@+id/fb_trupti"
+
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:paddingRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/ParagraphText"
+                android:textSize="20dp"
+                android:text="Prof. Anil Naik\nInformation Technology\nPhone:8237114076"
+                android:id="@+id/textView3"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/fb_naik"
+                android:layout_toEndOf="@+id/fb_naik" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/naik"
+                android:id="@+id/fb_naik"
+
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
